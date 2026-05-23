@@ -7,10 +7,9 @@
   "category": "utilities",
   "compatible": ["fx-CG50", "fx-CG100"],
   "url": "https://github.com/Konsl/utilities-fxcg50",
-  "download_url": "https://github.com/Konsl/utilities-fxcg50/releases/latest/download/utilities.g3a",
-  "download_type": "zip",
-  "zip_file": "utilities.g3a",
-  "size_kb": 183,
+  "download_url": "https://raw.githubusercontent.com/pan-devs/pancalc-registry/main/files/utilities.g3a",
+  "download_type": "direct",
+  "size_kb": 178.5,
   "license": "GPL-3.0",
   "tags": ["clock", "files", "calendar", "productivity", "text-editor", "image-viewer", "file-manager"]
 }
