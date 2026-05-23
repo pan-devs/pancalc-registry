@@ -7,9 +7,19 @@
   "category": "math",
   "compatible": ["fx-CG50"],
   "url": "https://www-fourier.univ-grenoble-alpes.fr/~parisse/install_en",
-  "download_url": "https://raw.githubusercontent.com/pan-devs/pancalc-registry/main/files/khicas50.g3a",
-  "download_type": "direct",
   "size_kb": 1945.6,
   "license": "GPL-3.0",
-  "tags": ["cas", "math", "python", "algebra", "symbolic", "giac", "xcas"]
+  "tags": ["cas", "math", "python", "algebra", "symbolic", "giac", "xcas"],
+  "files": [
+    {
+      "filename": "khicas50.g3a",
+      "download_url": "https://raw.githubusercontent.com/pan-devs/pancalc-registry/main/files/khicas/khicas50.g3a",
+      "download_type": "direct"
+    },
+    {
+      "filename": "khicas50.ac2",
+      "download_url": "https://raw.githubusercontent.com/pan-devs/pancalc-registry/main/files/khicas/khicas50.ac2",
+      "download_type": "direct"
+    }
+  ]
 }
