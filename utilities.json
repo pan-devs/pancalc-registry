@@ -1,0 +1,14 @@
+{
+  "id": "utilities",
+  "name": "Utilities",
+  "author": "Konsl",
+  "version": "1.4",
+  "description": "All-in-one add-in: file manager, text editor, clock, calendar, task list, stopwatch, password generator, image viewer and more. Replaces six separate add-ins in under 185 KiB.",
+  "category": "utilities",
+  "compatible": ["fx-CG50", "fx-CG100"],
+  "url": "https://github.com/Konsl/utilities-fxcg50",
+  "download_url": "https://github.com/Konsl/utilities-fxcg50/releases/latest/download/utilities.g3a",
+  "size_kb": 183,
+  "license": "GPL-3.0",
+  "tags": ["clock", "files", "calendar", "productivity", "text-editor", "image-viewer", "file-manager"]
+}

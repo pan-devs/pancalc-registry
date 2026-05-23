@@ -1,0 +1,12 @@
+{
+  "registry_version": "1",
+  "last_updated": "2026-05-23",
+  "maintainer": "Pan Devs <pan.devs@proton.me>",
+  "public_key": "https://raw.githubusercontent.com/pan-devs/pancalc-registry/main/pandevs.asc",
+  "addins": [
+    "addins/utilities.json",
+    "addins/khicas.json",
+    "addins/nesizm.json",
+    "addins/bdesretro.json"
+  ]
+}

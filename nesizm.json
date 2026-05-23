@@ -1,0 +1,14 @@
+{
+  "id": "nesizm",
+  "name": "Nesizm",
+  "author": "tswilliamson",
+  "version": "latest",
+  "description": "NES emulator for the Casio fx-CG50. Play NES ROMs directly on your calculator. Requires ROM files loaded onto the calculator storage.",
+  "category": "emulators",
+  "compatible": ["fx-CG50"],
+  "url": "https://github.com/tswilliamson/nesizm",
+  "download_url": "https://github.com/tswilliamson/nesizm/releases/latest/download/nesizm.g3a",
+  "size_kb": null,
+  "license": "MIT",
+  "tags": ["nes", "emulator", "retro", "games"]
+}

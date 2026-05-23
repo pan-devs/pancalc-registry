@@ -1,0 +1,14 @@
+{
+  "id": "khicas",
+  "name": "KhiCAS",
+  "author": "Bernard Parisse",
+  "version": "latest",
+  "description": "Full-featured CAS (Computer Algebra System) for the fx-CG50. Port of Giac/Xcas. Supports Python syntax, symbolic computation, step-by-step debugging, on-calc program editor with syntax highlighting. More powerful than the built-in CAS of the Classpad.",
+  "category": "math",
+  "compatible": ["fx-CG50"],
+  "url": "https://www-fourier.univ-grenoble-alpes.fr/~parisse/install_en",
+  "download_url": "https://www-fourier.univ-grenoble-alpes.fr/~parisse/casio/khicasen.g3a",
+  "size_kb": null,
+  "license": "GPL-3.0",
+  "tags": ["cas", "math", "python", "algebra", "symbolic", "giac", "xcas"]
+}
