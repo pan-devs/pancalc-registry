@@ -7,7 +7,7 @@
   "category": "math",
   "compatible": ["fx-CG50"],
   "url": "https://www-fourier.univ-grenoble-alpes.fr/~parisse/install_en",
-  "size_kb": 1945.6,
+  "size_kb": 4300.8,
   "license": "GPL-3.0",
   "tags": ["cas", "math", "python", "algebra", "symbolic", "giac", "xcas"],
   "files": [
