@@ -8,6 +8,7 @@
   "compatible": ["fx-CG50"],
   "url": "https://www-fourier.univ-grenoble-alpes.fr/~parisse/install_en",
   "download_url": "https://www-fourier.univ-grenoble-alpes.fr/~parisse/casio/khicasen.g3a",
+  "download_type": "direct",
   "size_kb": null,
   "license": "GPL-3.0",
   "tags": ["cas", "math", "python", "algebra", "symbolic", "giac", "xcas"]

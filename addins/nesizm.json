@@ -8,6 +8,8 @@
   "compatible": ["fx-CG50"],
   "url": "https://github.com/tswilliamson/nesizm",
   "download_url": "https://github.com/tswilliamson/nesizm/releases/latest/download/nesizm.g3a",
+  "download_type": "zip",
+  "zip_file": "nesizm.g3a",
   "size_kb": null,
   "license": "MIT",
   "tags": ["nes", "emulator", "retro", "games"]

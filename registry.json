@@ -6,7 +6,6 @@
   "addins": [
     "addins/utilities.json",
     "addins/khicas.json",
-    "addins/nesizm.json",
-    "addins/bdesretro.json"
+    "addins/nesizm.json"
   ]
 }
