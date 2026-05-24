@@ -33,6 +33,8 @@ pcalc install <id>      # install to your calculator
 
 Want to add an add-in? See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
+> - To understand the code or doubts, ask this chatbot https://deepwiki.com/pan-devs/pancalc-registry
+
 ## Verification
 
 All approved add-ins are signed with the Pan Devs GPG key (`1A370E1B68A194A8`).  
