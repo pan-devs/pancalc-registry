@@ -14,12 +14,14 @@
     {
       "filename": "khicas50.g3a",
       "download_url": "https://raw.githubusercontent.com/pan-devs/pancalc-registry/main/files/khicas/khicas50.g3a",
-      "download_type": "direct"
+      "download_type": "direct",
+      "sha256": "2f60d1d8ba6e52735dd33ee44477050e354d345bb10ae132845f64ad0956e388"
     },
     {
       "filename": "khicas50.ac2",
       "download_url": "https://raw.githubusercontent.com/pan-devs/pancalc-registry/main/files/khicas/khicas50.ac2",
-      "download_type": "direct"
+      "download_type": "direct",
+      "sha256": "fdfa78e7a1e668931306b0834b73c349b12bf1b94947340b46b386d4728a8de8"
     }
   ]
 }
