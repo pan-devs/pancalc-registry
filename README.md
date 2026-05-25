@@ -14,6 +14,8 @@ pancalc-registry/
 │   ├── khicas.json
 │   ├── nesizm.json
 │   └── ...
+├── files/               ← hosted add-in files and GPG signatures
+├── tools/               ← helper scripts for contributors
 ├── pandevs.asc          ← Pan Devs public GPG key
 └── CONTRIBUTING.md      ← how to submit an add-in
 ```
@@ -34,6 +36,7 @@ pcalc install <id>      # install to your calculator
 Want to add an add-in? See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 > - To understand the code or doubts, ask this chatbot https://deepwiki.com/pan-devs/pancalc-registry
+> - Use the interactive helper: `python tools/make_addin.py`
 
 ## Verification
 
