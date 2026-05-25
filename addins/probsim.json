@@ -10,7 +10,7 @@
   "download_url": "https://info.casio.co.uk/hubfs/CAL/Resources/OS%20and%20Files/fx-CG50%20add-ins.zip",
   "download_type": "zip",
   "zip_file": "ProbSim.g3a",
-  "sha256": "0fd9f6dd9e19cfb8bcf79fcac507e8d57695eeb0bc439dca709423da10e41674",
+  "sha256": "fbfd24f6638b0f744c6a3fdb7b1f8f5198eb4657eea8df539071a8ee39f6ffd8",
   "size_kb": 406,
   "license": "unknown",
   "tags": ["probability", "simulation", "statistics", "official"],

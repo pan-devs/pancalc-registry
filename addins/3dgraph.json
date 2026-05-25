@@ -10,7 +10,7 @@
   "download_url": "https://info.casio.co.uk/hubfs/CAL/Resources/OS%20and%20Files/fx-CG50%20add-ins.zip",
   "download_type": "zip",
   "zip_file": "3DGraph.g3a",
-  "sha256": "0fd9f6dd9e19cfb8bcf79fcac507e8d57695eeb0bc439dca709423da10e41674",
+  "sha256": "33aff6a33cae55cda0a3faec53c4a9be774d30c5ea546835e0eeb488691d93be",
   "size_kb": 329,
   "license": "unknown",
   "tags": ["3d", "graph", "math", "official"],
