@@ -1,0 +1,19 @@
+{
+  "id": "pictplot",
+  "name": "Picture Plot",
+  "author": "Casio",
+  "version": "unknown",
+  "description": "Overlay mathematical graphs on top of photos to visually connect real-world images with mathematical functions.",
+  "category": "math",
+  "compatible": ["fx-CG50", "fx-CG100"],
+  "url": "https://edu.casio.com",
+  "download_url": "https://info.casio.co.uk/hubfs/CAL/Resources/OS%20and%20Files/fx-CG50%20add-ins.zip",
+  "download_type": "zip",
+  "zip_file": "PictPlot.g3a",
+  "sha256": "cdc9e046719b254c0f269680097e24ea191b0bb53556e28d511443973aadd52b",
+  "size_kb": 83.66,
+  "license": "unknown",
+  "tags": ["graph", "photo", "math", "official"],
+  "signature_url": "https://raw.githubusercontent.com/pan-devs/pancalc-registry/main/files/fx-CG50_add-ins.zip.asc"
+
+}

@@ -1,0 +1,19 @@
+{
+  "id": "probsim",
+  "name": "Probability Simulation",
+  "author": "Casio",
+  "version": "unknown",
+  "description": "Simulates probability experiments such as coin tosses, dice rolls, and random number generation directly on the calculator.",
+  "category": "education",
+  "compatible": ["fx-CG50", "fx-CG100"],
+  "url": "https://edu.casio.com",
+  "download_url": "https://info.casio.co.uk/hubfs/CAL/Resources/OS%20and%20Files/fx-CG50%20add-ins.zip",
+  "download_type": "zip",
+  "zip_file": "ProbSim.g3a",
+  "sha256": "fbfd24f6638b0f744c6a3fdb7b1f8f5198eb4657eea8df539071a8ee39f6ffd8",
+  "size_kb": 406,
+  "license": "unknown",
+  "tags": ["probability", "simulation", "statistics", "official"],
+  "signature_url": "https://raw.githubusercontent.com/pan-devs/pancalc-registry/main/files/fx-CG50_add-ins.zip.asc"
+
+}

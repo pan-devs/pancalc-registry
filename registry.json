@@ -1,11 +1,16 @@
 {
   "registry_version": "1",
-  "last_updated": "2026-05-23",
+  "last_updated": "2026-05-25",
   "maintainer": "Pan Devs <pan.devs@proton.me>",
   "public_key": "https://raw.githubusercontent.com/pan-devs/pancalc-registry/main/pandevs.asc",
   "addins": [
     "addins/utilities.json",
     "addins/khicas.json",
-    "addins/nesizm.json"
+    "addins/nesizm.json",
+    "addins/3dgraph.json",
+    "addins/geometry.json",
+    "addins/physium.json",
+    "addins/probsim.json",
+    "addins/pictplot.json"
   ]
 }

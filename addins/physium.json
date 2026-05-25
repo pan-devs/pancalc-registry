@@ -1,0 +1,19 @@
+{
+  "id": "physium",
+  "name": "Physium",
+  "author": "Casio",
+  "version": "unknown",
+  "description": "Periodic table of elements and fundamental physical constants reference tool for science students.",
+  "category": "education",
+  "compatible": ["fx-CG50", "fx-CG100"],
+  "url": "https://edu.casio.com",
+  "download_url": "https://info.casio.co.uk/hubfs/CAL/Resources/OS%20and%20Files/fx-CG50%20add-ins.zip",
+  "download_type": "zip",
+  "zip_file": "Physium.g3a",
+  "sha256": "9a69c855c5840ab1a2f4fe1361adad68eb94d843160f44c9775c9c834db89561",
+  "size_kb": 1863.68,
+  "license": "unknown",
+  "tags": ["physics", "chemistry", "periodic-table", "constants", "official"],
+  "signature_url": "https://raw.githubusercontent.com/pan-devs/pancalc-registry/main/files/fx-CG50_add-ins.zip.asc"
+
+}

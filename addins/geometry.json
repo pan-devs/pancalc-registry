@@ -1,0 +1,19 @@
+{
+  "id": "geometry",
+  "name": "Geometry",
+  "author": "Casio",
+  "version": "unknown",
+  "description": "Interactive geometry application for constructing and exploring geometric figures, measurements, and transformations.",
+  "category": "math",
+  "compatible": ["fx-CG50", "fx-CG100"],
+  "url": "https://edu.casio.com",
+  "download_url": "https://info.casio.co.uk/hubfs/CAL/Resources/OS%20and%20Files/fx-CG50%20add-ins.zip",
+  "download_type": "zip",
+  "zip_file": "Geometry.g3a",
+  "sha256": "3eeacdf94eb190e9ba4eb3c78b41ee9638906c717b2e5d473f2a5bf28524887a",
+  "size_kb": 771,
+  "license": "unknown",
+  "tags": ["geometry", "math", "official"],
+  "signature_url": "https://raw.githubusercontent.com/pan-devs/pancalc-registry/main/files/fx-CG50_add-ins.zip.asc"
+
+}

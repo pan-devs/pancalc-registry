@@ -21,36 +21,55 @@ Pan Devs will review the PR, test the add-in, and if approved, sign the `.g3a` w
 
 ```json
 {
-  "id": "unique-lowercase-id",
-  "name": "Display Name",
-  "author": "Author Name",
-  "version": "1.0",
-  "description": "What it does, in 1-2 sentences.",
-  "category": "utilities | math | games | emulators | education | dev | other",
+  "id": "",
+  "name": "",
+  "author": "",
+  "version": "",
+  "description": "",
+  "category": "",
   "compatible": ["fx-CG50", "fx-CG100"],
-  "url": "https://github.com/author/repo",
-  "download_url": "https://direct.link/to/file.g3a",
-  "size_kb": 123,
-  "license": "MIT | GPL-3.0 | GPL-2.0 | ...",
-  "tags": ["tag1", "tag2"]
+  "url": "",
+  "download_url": "",
+  "download_type": "direct | g3a | zip",
+  "zip_file": "(only if download_type is zip)",
+  "sha256": "",
+  "size_kb": null,
+  "license": "",
+  "tags": [],
+  "signature_url": "(only if download_type is direct — filled by Pan Devs)"
 }
 ```
 
+### `download_type` values
+
+| Value | Description |
+|-------|-------------|
+| `direct` | The `.g3a` is hosted in this registry under `files/`. Used for add-ins Pan Devs mirrors directly. |
+| `g3a` | Direct link to a `.g3a` file hosted externally. |
+| `zip` | Link to a `.zip` file containing the `.g3a`. Requires `zip_file` field. |
+
 ### Required fields
+
 - `id` — unique, lowercase, hyphens only
 - `name` — display name
 - `author` — author or maintainer
 - `version` — current version string
-- `description` — short description
-- `category` — one of the values above
+- `description` — short description of what the add-in does
+- `category` — one of: `utilities` | `math` | `games` | `emulators` | `education` | `dev` | `other`
 - `compatible` — list of compatible models
-- `url` — homepage or source repo
-- `download_url` — direct link to the `.g3a` file
+- `url` — homepage or source repository
+- `download_url` — link to the `.g3a` or `.zip` file
+- `download_type` — see table above
 - `license` — SPDX identifier if known, `"unknown"` otherwise
 
 ### Optional fields
-- `size_kb` — file size in KiB (integer), `null` if unknown
+
+- `zip_file` — filename of the `.g3a` inside the zip (required when `download_type` is `zip`)
+- `size_kb` — file size in KiB, `null` if unknown
 - `tags` — searchable keywords
+- `signature_url` — GPG signature URL, filled by Pan Devs after approval (only for `direct` type)
+
+> **Note:** Leave `sha256` empty — it will be calculated and verified by Pan Devs during review.
 
 ---
 
@@ -62,7 +81,7 @@ All add-ins approved by Pan Devs are signed with the Pan Devs GPG key.
 **Fingerprint:** `C7AD 9689 E894 B261 7EAB CFE2 1A37 0E1B 68A1 94A8`  
 **Public key:** [`pandevs.asc`](./pandevs.asc) — also available at [keys.openpgp.org](https://keys.openpgp.org)
 
-Signatures (`.sig` files) are published alongside each `.g3a` in GitHub Releases.
+Signatures (`.asc` files) are published alongside each `.g3a` in the `files/` directory.  
 `pcalc verify <addin>` checks both SHA256 and the GPG signature automatically.
 
 ---
@@ -71,6 +90,7 @@ Signatures (`.sig` files) are published alongside each `.g3a` in GitHub Releases
 
 - Only submit add-ins that work on the fx-CG50 or fx-CG100
 - The add-in must be publicly available (free download, no login required)
+- Official add-ins (e.g. from Casio's website) are welcome — link to the official source, do not redistribute the binary
 - No malware, no obfuscated binaries without source
 - If the license is unknown, set `"license": "unknown"` — don't guess
 - One add-in per PR
