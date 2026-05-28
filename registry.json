@@ -11,6 +11,7 @@
     "addins/geometry.json",
     "addins/physium.json",
     "addins/probsim.json",
-    "addins/pictplot.json"
+    "addins/pictplot.json",
+    "addins/prizm_racing_v2.json"
   ]
 }
