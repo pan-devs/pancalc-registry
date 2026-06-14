@@ -1,0 +1,26 @@
+{
+  "id": "test",
+  "name": "Test",
+  "author": "Test",
+  "version": "1.0",
+  "description": "A classic NES homebrew game where you mow the lawn. Plays on the Nesizm emulator.",
+  "category": "games",
+  "compatible": [
+    "fx-CG50"
+  ],
+  "url": "https://shiru.itch.io/lawn-mower",
+  "download_url": "file:///home/goduserr/Git/pan-devs/pancalc-registry/files/lawn_mower.nes",
+  "download_type": "direct",
+  "sha256": "9512e50d289ed2c29e89a6ebb9524ed8c1b98b244aa7f9d3f84e9138dbd6f670",
+  "filename": "lawnmow.nes",
+  "size_kb": 0.02,
+  "license": "Public Domain",
+  "tags": [
+    "nes",
+    "emulator",
+    "retro",
+    "games"
+  ],
+  "emulator": "nesizm",
+  "platform": "NES"
+}

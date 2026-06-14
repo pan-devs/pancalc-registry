@@ -1,6 +1,6 @@
 PAN DEVS NON-COMMERCIAL ATTRIBUTION LICENSE — REGISTRY
 Version 1.0
-Copyright © 2026 Adrián Lavado Munuera (Pan Devs)
+Copyright © 2026 Pan Devs
 ================================================================================
 SCOPE OF THIS LICENSE
 
@@ -36,7 +36,7 @@ ATTRIBUTION
 
 Any distribution or derivative use of the registry metadata must include:
 
-  "Registry metadata © 2026 Pan Devs (Adrián Lavado Munuera).
+  "Registry metadata © 2026 Pan Devs.
    Source: https://github.com/pan-devs/pancalc-registry
    Used under the Pan Devs Non-Commercial Attribution License."
 ================================================================================
@@ -59,7 +59,7 @@ REGISTRY OR THE ADD-INS IT REFERENCES.
 ================================================================================
 CONTACT
 
-Pan Devs (Adrián Lavado Munuera)
+Pan Devs
 Email:      pan.devs@proton.me
 Repository: https://github.com/pan-devs/pancalc-registry
 Full license: https://github.com/pan-devs/pancalc-tools/blob/main/LICENSE

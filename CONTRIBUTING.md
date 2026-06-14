@@ -117,6 +117,43 @@ with the Pan Devs GPG key and merge.
 | `direct` | The `.g3a` is hosted somewhere (ideally the registry's `files/`). |
 | `zip` | Link to a `.zip` file containing the `.g3a`. Requires `zip_file`. |
 
+### Game / Emulator add-in (e.g. NES, GB, GBA ROMs)
+
+```json
+{
+  "id": "lawn_mower",
+  "name": "Lawn Mower",
+  "author": "Shiru",
+  "version": "1.0",
+  "description": "A classic NES homebrew game that plays on the Nesizm emulator.",
+  "category": "games",
+  "compatible": ["fx-CG50"],
+  "url": "https://shiru.itch.io/lawn-mower",
+  "download_url": "https://example.com/lawn_mower.nes",
+  "download_type": "direct",
+  "sha256": "9512e50d289ed2c29e89a6ebb9524ed8c1b98b244aa7f9d3f84e9138dbd6f670",
+  "filename": "lawnmow.nes",
+  "size_kb": 0.02,
+  "license": "Public Domain",
+  "tags": ["nes", "emulator", "retro", "games"],
+  "emulator": "nesizm",
+  "platform": "NES"
+}
+```
+
+**Required game-specific fields:**
+- `category` must be `"games"`
+- `emulator` — emulator add-in ID (e.g. `nesizm`, `gpsp`, `smsplusgx`)
+- `platform` — original platform name (e.g. `NES`, `GB`, `GBA`, `SMS`, `GG`)
+- `filename` — exact filename on calculator (sanitized, no spaces)
+
+**Notes:**
+- `download_type` is always `"direct"` (no zip for game ROMs)
+- ROMs are hosted in the registry's `files/` directory
+- SHA256 is computed from the ROM file
+- Games appear in the `games/` subdirectory and `registry.json`'s `games` array
+- `pcalc games list` / `pcalc games install <id>` from PanCalc Tools
+
 ### Required fields
 
 - `id` — unique, lowercase, hyphens only
@@ -124,7 +161,7 @@ with the Pan Devs GPG key and merge.
 - `author` — author or maintainer
 - `version` — current version string
 - `description` — short description of what the add-in does
-- `category` — one of: `utilities` | `math` | `emulators` | `education`
+- `category` — one of: `utilities` | `math` | `emulators` | `education` | `games`
 - `compatible` — list of compatible calculator models
 - `url` — homepage or source repository
 - `download_url` (single-file) or `files[]` (multi-file) — download location

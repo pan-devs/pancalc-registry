@@ -13,5 +13,8 @@
     "addins/probsim.json",
     "addins/pictplot.json",
     "addins/prizm_racing_v2.json"
+  ],
+  "games": [
+    "games/lawn_mower.json"
   ]
 }
