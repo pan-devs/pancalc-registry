@@ -1,0 +1,27 @@
+{
+  "id": "test_rom",
+  "name": "Test ROM — do not download",
+  "author": "Pan Devs",
+  "version": "1.0",
+  "description": "Mock/test entry that demonstrates the game schema of the registry. This is NOT a real game — it is a 21-byte placeholder. Do not download or install it.",
+  "category": "games",
+  "compatible": [
+    "fx-CG50"
+  ],
+  "url": "https://github.com/pan-devs/pancalc-registry",
+  "download_url": "https://raw.githubusercontent.com/pan-devs/pancalc-registry/main/files/test.nes",
+  "download_type": "direct",
+  "sha256": "9512e50d289ed2c29e89a6ebb9524ed8c1b98b244aa7f9d3f84e9138dbd6f670",
+  "filename": "test.nes",
+  "size_kb": 0.02,
+  "license": "unknown",
+  "tags": [
+    "test",
+    "example",
+    "nes",
+    "emulator",
+    "games"
+  ],
+  "emulator": "nesizm",
+  "platform": "NES"
+}

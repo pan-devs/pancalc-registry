@@ -119,23 +119,27 @@ with the Pan Devs GPG key and merge.
 
 ### Game / Emulator add-in (e.g. NES, GB, GBA ROMs)
 
+The registry does **not** host copyrighted ROMs (see [Guidelines](#guidelines)).
+The only hosted game is `test_rom` — a mock 21-byte placeholder that documents
+the schema, never a real game ("do not download"). Use its shape as a template:
+
 ```json
 {
-  "id": "lawn_mower",
-  "name": "Lawn Mower",
-  "author": "Shiru",
+  "id": "test_rom",
+  "name": "Test ROM — do not download",
+  "author": "Pan Devs",
   "version": "1.0",
-  "description": "A classic NES homebrew game that plays on the Nesizm emulator.",
+  "description": "Mock/test entry that demonstrates the game schema of the registry. This is NOT a real game.",
   "category": "games",
   "compatible": ["fx-CG50"],
-  "url": "https://shiru.itch.io/lawn-mower",
-  "download_url": "https://example.com/lawn_mower.nes",
+  "url": "https://github.com/pan-devs/pancalc-registry",
+  "download_url": "https://raw.githubusercontent.com/pan-devs/pancalc-registry/main/files/test.nes",
   "download_type": "direct",
   "sha256": "9512e50d289ed2c29e89a6ebb9524ed8c1b98b244aa7f9d3f84e9138dbd6f670",
-  "filename": "lawnmow.nes",
+  "filename": "test.nes",
   "size_kb": 0.02,
-  "license": "Public Domain",
-  "tags": ["nes", "emulator", "retro", "games"],
+  "license": "unknown",
+  "tags": ["test", "example", "nes", "emulator", "games"],
   "emulator": "nesizm",
   "platform": "NES"
 }
@@ -153,6 +157,13 @@ with the Pan Devs GPG key and merge.
 - SHA256 is computed from the ROM file
 - Games appear in the `games/` subdirectory and `registry.json`'s `games` array
 - `pcalc games list` / `pcalc games install <id>` from PanCalc Tools
+
+**ROM policy:**
+- The registry hosts **no copyrighted ROMs**. Each contributor is responsible
+  for the files they reference — only submit ROMs you are authorised to
+  redistribute (public domain, freely licensed, or homebrew with permission).
+- Prefer linking to the original/official download instead of re-hosting a copy.
+- Sanity-check: if a game could be confused with a pirated ROM, leave it out.
 
 ### Required fields
 
@@ -197,7 +208,16 @@ Signatures (`.asc` files) are published alongside each file in the `files/` dire
 - Only submit add-ins that work on the fx-CG50 or fx-CG100
 - The add-in must be publicly available (free download, no login required)
 - Official add-ins (e.g. from Casio's website) are welcome — link to the official source, do not redistribute the binary
+- **No copyrighted ROMs.** The registry hosts no ROMs for commercial games
+  (NES, GB, GBA, SMS, GG, etc.). The only hosted game is the `test_rom` mock —
+  contributors are responsible for the files they add, and should only reference
+  freely redistributable content.
 - No malware, no obfuscated binaries without source
 - If the license is unknown, set `"license": "unknown"` — don't guess
 - One add-in per PR
 - Use the `tools/make_addin.py` script to generate your JSON and avoid mistakes
+
+> **Note (emulators):** a Game Boy Advance emulator port (`gpsp-sh4-jit`, by
+> KaraRyougi) is a **candidate** for the registry. It is not accepted yet — it
+> still needs review, license verification (gpSP is GPL-2.0), and signing by Pan
+> Devs before it can be submitted here.

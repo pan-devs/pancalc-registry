@@ -62,4 +62,4 @@ CONTACT
 Pan Devs
 Email:      pan.devs@proton.me
 Repository: https://github.com/pan-devs/pancalc-registry
-Full license: https://github.com/pan-devs/pancalc-tools/blob/main/LICENSE
+Full license: https://github.com/pan-devs/pancalc-tools/blob/main/LICENSE.md

@@ -15,7 +15,7 @@ pancalc-registry/
 │   ├── nesizm.json
 │   └── ...
 ├── games/               ← one JSON per emulator game
-│   └── lawn_mower.json
+│   └── test_rom.json    ← mock/test entry (do not download — not a real game)
 ├── files/               ← hosted add-in files and GPG signatures
 ├── tools/               ← helper scripts for contributors
 ├── pandevs.asc          ← Pan Devs public GPG key
