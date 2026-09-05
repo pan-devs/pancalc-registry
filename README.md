@@ -49,6 +49,11 @@ Public key: [`pandevs.asc`](./pandevs.asc) — also on [keys.openpgp.org](https:
 
 Game ROM files are verified by SHA256 only (no PGP).
 
+## AI Assistance
+
+The idea and design are the author's own. The code implementation is supported
+by, and in large part written with, AI assistance.
+
 
 ---
 
