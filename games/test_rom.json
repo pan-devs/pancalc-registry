@@ -3,7 +3,7 @@
   "name": "Test ROM — do not download",
   "author": "Pan Devs",
   "version": "1.0",
-  "description": "Mock/test entry that demonstrates the game schema of the registry. This is NOT a real game — it is a 21-byte placeholder. Do not download or install it.",
+  "description": "Mock/test entry that demonstrates the game schema of the registry. This is NOT a real game — it is a 21-byte placeholder. Do not download or install it. FINALLY, THE FIRST WINDOWS STABLE GUI, a lot of work indeed (claudeeeeesss plaaaaaann 🎶)",
   "category": "games",
   "compatible": [
     "fx-CG50"
